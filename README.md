@@ -1,2 +1,2 @@
-# Visualizing_EM
-Visualizing EM lower bound updates and log-likehood function from empirical data
+# Visualizing EM
+This repo visualized EM lower bound updates and log-likehood function from Gaussian Mixture Model fitiing on empirical data.
