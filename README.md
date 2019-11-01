@@ -10,12 +10,12 @@ Data log-likelihood, lower bound function and parameter u2 update:
 ## Expectation-Maximization algorithm
 Expectation-Maximization is an iterative method that performs clustering. EM maximizes data likelihood by updating current model’s parameters with a sequence of E and M steps. What happens during E-steps and M-steps?
 
-From practical perspective:
+*From practical perspective*:
 
 * E-step: measure “how much” every data point belongs to each of the clusters, assign a responsibility vector based on that.
 * M-step: update parameters of the clusters using the distribution of points that belong to it.
 
-From theoretical perspective:
+*From theoretical perspective*:
 
 * E-step: construct a lower bound estimate for data log-likelihood.
 * M-step: update parameters of the clusters so that we reach maximum of the lower bound estimate.
