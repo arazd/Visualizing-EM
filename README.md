@@ -1,6 +1,8 @@
 # Visualizing EM
-This repo visualized EM lower bound updates and log-likehood function from Gaussian Mixture Model fitting on empirical data.
+This repo contains code for visualization of EM updates using Gaussian Mixture Model.
 
+The points assignment (E-step) and model updates (M-step): 
 <img src="illustrations/EM2.gif" width="520px"/> 
 
+Data log-likelihood, lower bound function and parameter u2 update:
 <img src="illustrations/lower_bound.gif" width="520px"/> 
