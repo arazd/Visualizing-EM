@@ -70,7 +70,6 @@ def get_log_likelihood(x_arr, u_arr, sigma_arr, pi_arr):
     return log_likelihood
 
 
-
 def get_lower_bound(x_arr, u_arr, sigma_arr, pi_arr, R):
     N1 = scipy.stats.norm(u_arr[0], sigma_arr[0])
     N2 = scipy.stats.norm(u_arr[1], sigma_arr[1])
