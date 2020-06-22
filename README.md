@@ -31,3 +31,4 @@ This repository contains:
 * EM_tutorial.ipynb - a step-by-step guide to understand EM through GMM example
 * EM_utils.py - a python library for EM updates / visualization (< 100 lines of code)
 * using_EM_utils.ipynb - an example of using EM_utils.py
+
